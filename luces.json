@@ -12,7 +12,7 @@
         "configuracionPersonalizada": {
           "colorRgb": "#FF0000",
           "velocidadEfectos": "alta",
-          "nivelPWM": 75  // Nivel de PWM para el control de luces
+          "nivelPWM": 75  
         },
         "controlAcceso": {
           "usuario1": true,
@@ -38,7 +38,7 @@
         "configuracionPersonalizada": {
           "colorRgb": "#00FF00",
           "velocidadEfectos": "media",
-          "nivelPWM": 50  // Nivel de PWM para el control de luces
+          "nivelPWM": 50  
         },
         "controlAcceso": {
           "usuario1": false,
