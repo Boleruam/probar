@@ -1,55 +1,56 @@
 {
-  "dispositivos": {
-    "dispositivo1": {
-      "nombre": "Nombre del Dispositivo 1",
-      "estado": "activo",
-      "modo": "modo1",
-      "programacion_horario": {
-        "encendido": "08:00",
-        "apagado": "22:00"
+  "TuProyectoFirebase": {
+    "dispositivos": {
+      "dispositivo1": {
+        "nombre": "Nombre del Dispositivo 1",
+        "estado": "activo",
+        "modo": "modo1",
+        "programacionHorario": {
+          "encendido": "08:00",
+          "apagado": "22:00"
+        },
+        "configuracionPersonalizada": {
+          "colorRgb": "#FF0000",
+          "velocidadEfectos": "alta"
+        },
+        "controlAcceso": {
+          "usuario1": true,
+          "usuario2": false
+        },
+        "datosSensores": {
+          "temperatura": 25.5,
+          "humedad": 60
+        },
+        "registrosActividad": {
+          "registro1": "Evento 1",
+          "registro2": "Evento 2"
+        }
       },
-      "configuracion_personalizada": {
-        "color_rgb": "#FF0000",
-        "velocidad_efectos": "alta"
-      },
-      "control_acceso": {
-        "usuario1": true,
-        "usuario2": false
-      },
-      "datos_sensores": {
-        "temperatura": 25.5,
-        "humedad": 60
-      },
-      "registros_actividad": {
-        "registro1": "Evento 1",
-        "registro2": "Evento 2"
-      }
-    },
-    "dispositivo2": {
-      "nombre": "Nombre del Dispositivo 2",
-      "estado": "inactivo",
-      "modo": "modo2",
-      "programacion_horario": {
-        "encendido": "09:00",
-        "apagado": "21:00"
-      },
-      "configuracion_personalizada": {
-        "color_rgb": "#00FF00",
-        "velocidad_efectos": "media"
-      },
-      "control_acceso": {
-        "usuario1": false,
-        "usuario2": true
-      },
-      "datos_sensores": {
-        "temperatura": 23.0,
-        "humedad": 55
-      },
-      "registros_actividad": {
-        "registro1": "Evento 3",
-        "registro2": "Evento 4"
+      "dispositivo2": {
+        "nombre": "Nombre del Dispositivo 2",
+        "estado": "inactivo",
+        "modo": "modo2",
+        "programacionHorario": {
+          "encendido": "09:00",
+          "apagado": "21:00"
+        },
+        "configuracionPersonalizada": {
+          "colorRgb": "#00FF00",
+          "velocidadEfectos": "media"
+        },
+        "controlAcceso": {
+          "usuario1": false,
+          "usuario2": true
+        },
+        "datosSensores": {
+          "temperatura": 23.0,
+          "humedad": 55
+        },
+        "registrosActividad": {
+          "registro1": "Evento 3",
+          "registro2": "Evento 4"
+        }
       }
     }
-    
   }
 }
